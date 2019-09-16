@@ -125,7 +125,7 @@ interface ShopifyScriptTagEndpoints {
 declare type ShopifyOrder = any
 interface ShopifyOrderEndpoints {
   cancel(id: number, params: any): any;
-  close(id: number);
+  close(id: number): any;
   count(params?: any): any;
   create(params: any): any;
   delete(id: number): any;
