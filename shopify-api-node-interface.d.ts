@@ -138,7 +138,7 @@ interface ShopifyOrderEndpoints {
 /**
  * Main module actions and subsequent endpoints
  */
-declare interface ShopifyActions {
+export declare interface ShopifyActions {
   apiPermission: any;
   applicationCharge: any;
   applicationCredit: any;
